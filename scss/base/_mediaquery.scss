@@ -1,0 +1,403 @@
+@media (max-width: 1510px){
+    .sectorDos{
+        justify-content: space-around;
+    }
+    .clics{
+        width: 31.25rem;
+            p{
+                width: 25rem;
+            }
+            h2{
+                font-size: 6rem;
+                    span{
+                        font-size: 6rem;
+                    }
+            }
+    }
+    #carouselExample{
+        width: 25rem;
+        height: 28.125rem;
+    }
+}
+
+@media (max-width: 1280px){
+    .sectorUno{
+        padding-left: 1.25rem;
+    }
+    .tituloPequeño{
+        font-size: 5rem;
+    }
+    .tituloGrande{
+        font-size: 6.875rem;
+    }
+    .sectorDos{
+        display: flex;
+        flex-direction: column;
+    }
+    .top{
+        width: 100%;
+        @include flex(flex, space-between, start);
+        flex-direction: row;
+            p{
+                font-size: 2.1875rem;
+                padding: 1.25rem;
+            }
+    }
+    .clics{
+        margin-top: 1.875rem;
+    }
+    .sectorTres{
+        height: 37.5rem;
+            a{
+                p{
+                    font-size: 2.5rem;
+                }
+            }
+    }
+    #carouselExample{
+        display: none;
+    }
+    .texto{
+        h1{
+            font-size: 4.375rem;
+        }
+        h3{
+            font-size: 4.375rem;
+        }
+    }
+    .contenedorRec p{
+        font-size: 1.875rem;
+    }
+    .item1, .item2{
+        height: 25rem;
+    }
+    .item3{
+        height: 23.375rem;
+    }
+}
+
+@media (max-width: 1090px){
+    .sectorUno{
+        background-position:right;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    .contenedorImg{
+        background-position: left;
+    }
+    .discos{
+        div{
+            width: 18.75rem;
+            height: 18.75rem;
+            a{
+                img{
+                    width: 18.75rem;
+                    height: 18.75rem;
+                    &:hover{
+                        border: .125rem solid goldenrod;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 910px){
+    .sectorTres{
+        height: 31.25rem;
+            a{
+                p{
+                    font-size: 2.1875rem;
+                }
+            }
+    }
+    #sobreEl{
+        height: auto;
+    }
+    #suiGeneris{
+        div{
+            #video{
+                width: 31.25rem;
+            height: 18.75rem;
+            }
+        }
+    }
+    #maquinaPajaros{
+        div{
+            #video{
+                width: 31.25rem;
+            height: 18.75rem;
+            }
+        }
+    }
+    #seruGiran{
+        div{
+            #video{
+                width: 31.25rem;
+            height: 18.75rem;
+            }
+        }
+    }
+    #solista{
+        background-position: -5em;
+        div{
+            #video{
+                width: 31.25rem;
+            height: 18.75rem;
+            }
+        }
+    }
+    .discos{
+        display: flex;
+        flex-direction: column;
+        padding-top: 3.125rem;
+        div{
+            width: 18.75rem;
+            height: 18.75rem;
+            a{
+                img{
+                    width: 18.75rem;
+                    height: 18.75rem;
+                    &:hover{
+                        border: .125rem solid goldenrod;
+                    }
+                }
+            }
+        }
+    }
+    .imagen13{
+        img{
+            width: 18.75rem;
+            height: 18.75rem;
+            &:hover{
+                border: .125rem solid goldenrod;
+            }
+        }
+    }
+    .item1, .item2{
+        height: 18.75rem;
+    }
+    .item3{
+        height: 17.125rem;
+    }
+}
+
+@media (max-width: 845px){
+    .top{
+        display: none;
+    }
+    .sectorTres{
+        width: 100%;
+        height: 50rem;
+        display: flex;
+        flex-direction: column;
+            a{
+                height: 12.5rem;
+                width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                        }
+            }
+    }
+    .sui{
+        background-position: center 9%;
+    }
+    .maq{
+        background-position: center 20%;
+    }
+    .seru{
+        background-position: center 30%;
+    }
+    .solo{
+        background-position: center 20%;
+    }
+    .contenedorFotos{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.25rem;
+    }
+    #sobreEl{
+        p{
+            font-size: 1.25rem;
+        }
+        img{
+            width: 18.75rem;
+            height: 18.75rem;
+        }
+    }
+    #suiGeneris{
+        p{
+            font-size: 1.25rem;
+        }
+    }
+    #maquinaPajaros{
+        p{
+            font-size: 1.25rem;
+        }
+    }
+    #seruGiran{
+        p{
+            font-size: 1.25rem;
+        }
+    }
+    #solista{
+        p{
+            font-size: 1.25rem;
+        }
+    }
+    .contenedorRec{
+        p{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media (max-width: 670px){
+    .sectorUno{
+        background-image: url(../img/charlycelular.jpg);
+    }
+    .tituloPequeño{
+        font-size: 4rem;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .tituloGrande{
+        font-size: 5.3125rem;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    .clics{
+        width: 15.625rem;
+            h2{
+                font-size: 4.375rem;
+                text-align: center;
+                    span{
+                        font-size: 4.375rem;
+                        text-align: center;
+                    }
+            }
+            p{
+                width: 15.625rem;
+            }
+    }
+    #sobreEl{
+        h1{
+            font-size: 3.125rem;
+        }
+        h2{
+            font-size: 3.125rem;
+        }   
+        div{
+            display:none;
+        }
+    }
+    #suiGeneris{
+        div{
+            #video{
+                width: 18.75rem;
+            height: 9.375rem;
+            }
+        }
+    }
+    #maquinaPajaros{
+        div{
+            #video{
+                width: 18.75rem;
+            height: 9.375rem;
+            }
+        }
+    }
+    #seruGiran{
+        div{
+            #video{
+                width: 18.75rem;
+            height: 9.375rem;
+            }
+        }
+    }
+    #solista{
+        div{
+            #video{
+                width: 18.75rem;
+            height: 9.375rem;
+            }
+        }
+    }
+    .texto{
+        h3{
+            font-size: 3.125rem;
+        }
+    }
+    .fondoDisco{
+        h1{
+            font-size: 3.125rem;
+        }
+    }
+    .discos{
+        div{
+            width: 15.625rem;
+            height: 15.625rem;
+            a{
+                img{
+                    width: 15.625rem;
+                    height: 15.625rem;
+                    &:hover{
+                        border: .125rem solid goldenrod;
+                    }
+                }
+            }
+        }
+    }
+    .imagen13{
+        width: 15.625rem;
+        height: 15.625rem;
+        margin-top: 9.375rem;
+            img{
+                width: 15.625rem;
+                height: 15.625rem;
+                &:hover{
+                    border: .125rem solid goldenrod;
+                }
+            }
+    }
+    .contenedorRec{
+        p{
+            font-size: 1.25rem;
+            margin: 3.125rem;
+        }
+    }
+    .contenedorImg{
+        background-position: -20em;
+    }
+    .item1, .item2{
+        height: 12.5rem;
+    }
+    .item3{
+        height: 12.5rem;
+    }
+    .fondoGaleria{
+        h1{
+            font-size: 3.125rem;
+        }
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+            div{
+                p{
+                    font-size: .625rem;
+                    text-align: center;
+                }
+                a{
+                    img{
+                        width: 1.25rem;
+                        height: 1.25rem;
+                    }
+                }
+            }
+    }
+}

@@ -1,0 +1,151 @@
+.sectorUno{
+    width: 100%;
+    height: calc(100vh - 4.625rem);
+    background-image: url(../img/fondocharly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @include flex(flex, start, end);
+    padding: 2.5rem;
+    padding-left: 12.5rem;
+        h1{
+        font-family: "League Spartan";
+        color: $color-fuente;
+        }
+}
+
+.tituloPequeño{
+    font-size: 6rem;
+        &::selection{
+            color: $color-selection;
+        }
+}
+
+.tituloGrande{
+    font-size: 8rem;
+        &::selection{
+        color: $color-selection;
+        }
+}
+
+.sectorDos{
+    width: 100%;
+    height: 49.875rem;
+    background-color: rgb(25, 25, 25);
+    @include flex(flex, space-around, center);
+}
+
+.top{
+    height: 49.875rem;
+    width: 18.75rem;
+    @include flex(flex, center, start);
+    flex-direction: column;
+        p{
+            font-size: 2.5rem;
+            color: $color-fuente;
+            margin-bottom: 0rem;
+                &::selection{
+                    color: $color-selection;
+                }
+        }
+}
+
+.clics{
+    width: 43.75rem;
+    @include flex(flex, center, center);
+    flex-direction: column;
+        h2{
+            font-size: 8rem;
+            text-decoration: underline;
+            color: nth($colores, 2);
+                &::selection{
+                color: $color-selection;
+                }
+            span{
+                color: nth($colores, 2);
+                font-size: 8rem;
+                text-decoration: underline;
+                text-decoration-color: nth($colores, 2);
+                    &::selection{
+                    color: $color-selection;
+                    }
+                }
+        }
+        p{
+            font-size: 1.5rem;
+            width: 37.5rem;
+            text-align: center;
+            color: $color-fuente;
+            &::selection{
+                color: $color-selection;
+                }
+        }
+}
+
+.boton{
+    width: 12.5rem;
+    height: 3.125rem;
+    margin: 1.5625rem;
+    transition-duration: 1s;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+#carouselExample{
+    width: 28.125rem;
+    height: 31.25rem;
+    margin-left: 1.25rem;
+    border: .125rem solid goldenrod;
+}
+
+.sectorTres{
+    width: 100%;
+    height: 43.75rem;
+    display: flex;
+        a{
+            width: 25%;
+            position: relative;
+                p{
+                    position: absolute;
+                    bottom: 0;
+                    font-size: 3.125rem;
+                    padding: .625rem;
+                    color: $color-fuente;
+                    background-color: rgba(0, 0, 0, 0.2);
+                    transition-duration: 1s;
+                    &:hover{
+                        color: $color-selection;
+                    }
+                }
+        }
+}
+
+.sui{
+    background-image: url(../img/suigeneris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.maq{
+    background-image: url(../img/maquinapajaros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.seru{
+    background-image: url(../img/serugiran.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.solo{
+    background-image: url(../img/solista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

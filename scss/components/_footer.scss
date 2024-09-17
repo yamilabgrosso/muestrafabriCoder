@@ -1,0 +1,25 @@
+footer{
+    background-color: black;
+    @include flex(flex, space-between, center);
+    padding: .625rem;
+        div{
+            p{
+            font-family: "League Spartan";
+            color: $color-fuente;
+            font-size: .9375rem;
+            margin-bottom: 0rem;
+                &::selection{
+                    color: $color-selection;
+                }
+            }
+        }
+        div{
+            a{
+                margin: .625rem;
+                img{
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+            }
+        }
+}

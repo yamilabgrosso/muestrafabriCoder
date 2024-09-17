@@ -1,0 +1,25 @@
+$color-fuente: white;
+$color-selection: goldenrod;
+
+$colores: white, black, goldenrod;
+
+%navbar{
+    font-size: 1.5rem;
+    color: $color-fuente;
+    &:hover{
+        color: goldenrod;
+      }
+      &:active{
+        color: black;
+        background-color: goldenrod;
+      }
+}
+
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+

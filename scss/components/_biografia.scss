@@ -1,0 +1,126 @@
+#sobreEl{
+    width: 100%;
+    height: calc(100vh - 4.625rem);
+    background-image: url(../img/piano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+        div{
+            @include flex(flex, end, end);
+            margin: .9375rem;
+        }
+        p{
+            margin-bottom: 6.25rem;
+        }
+        img{
+            border: .1875rem solid goldenrod;
+            border-radius: 50%;
+            width: 25rem;
+            height: 25rem;
+            transition-duration: 1s;
+            &:hover{
+                transform: rotateY(180deg);
+            }
+        }
+}
+
+#suiGeneris{
+    width: 100%;
+    background-image: url(../img/bat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex(flex, start, center);
+    flex-direction: column;
+        div{
+            margin: .9375rem;
+        }
+        p{
+            margin-bottom: 6.1875rem;
+        }
+}
+
+#maquinaPajaros{
+    width: 100%;
+    background-image: url(../img/guitar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex(flex, start, center);
+    flex-direction: column;
+        div{
+            margin: .9375rem;
+        }
+        p{
+            margin-bottom: 1.4375rem;
+        }
+}
+
+#seruGiran{
+    width: 100%;
+    background-image: url(../img/bass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex(flex, start, center);
+    flex-direction: column;
+        div{
+            margin: .9375rem;
+        }
+        p{
+            margin-bottom: 3.75rem;
+        }
+}
+
+#solista{
+    width: 100%;
+    background-image: url(../img/micro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex(flex, start, center);
+    flex-direction: column;
+        div{
+            margin: .9375rem;
+        }
+}
+
+.texto{
+    @include flex(flex, space-between, start);
+    flex-direction: column;
+        h1{
+            font-size: 6rem;
+            padding: .625rem;
+            color: $color-fuente;
+            &::selection{
+                color: $color-selection;
+            }
+        }
+        h3{
+            font-size: 6rem;
+            padding: .625rem;
+            color: $color-fuente;
+            &::selection{
+                color: $color-selection;
+            }
+        }
+        h2{
+            font-size: 4rem;
+            padding: .625rem;
+            color: $color-fuente;
+            &::selection{
+                color: $color-selection;
+            }
+            
+        }
+        p{
+            font-size: 1.5625rem;
+            padding: .625rem;
+            color: $color-fuente;
+            background-color: rgba(0, 0, 0, 0.5);
+            &::selection{
+                color: $color-selection;
+            }
+        }
+}

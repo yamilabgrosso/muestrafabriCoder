@@ -1,0 +1,77 @@
+.fondoDisco{
+    background-image: url(../img/fondodiscografia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex(flex, start, center);
+    flex-direction: column;
+        h1{
+            color: $color-fuente;
+            font-size: 6rem;
+            padding: .625rem;
+            &::selection{
+                color: $color-selection;
+            }
+        }
+}
+
+.discos{
+    display: grid;
+    grid-template-rows: repeat(6, 25rem);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 9.375rem;
+    padding: 3.125rem;
+        div{
+            width: 21.875rem;
+            height: 21.875rem;
+            transition-duration: 1s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+            a{
+                img{
+                    width: 21.875rem;
+                    height: 21.875rem;
+                    &:hover{
+                        border: .125rem solid goldenrod;
+                    }
+                }
+            }
+            p{
+                font-size: 1.875rem;
+                color: $color-fuente;
+                background-color: rgba(0, 0, 0, 0.2);
+                text-align: center;
+                &::selection{
+                    color: $color-selection;
+                }
+            }
+        }
+}
+
+.imagen13{
+    width: 21.875rem;
+    height: 21.875rem;
+    @include flex(flex, end, center);
+    flex-direction: column;
+    margin-top: 5rem;
+    transition-duration: 1s;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+        p{
+            font-size: 1.875rem;
+            color: $color-fuente;
+            background-color: rgba(0, 0, 0, 0.2);
+            &::selection{
+                color: $color-selection;
+            }
+        }
+        img{
+            width: 21.875rem;
+            height: 21.875rem;
+            &:hover{
+                border: .125rem solid goldenrod;
+            }
+        }
+}

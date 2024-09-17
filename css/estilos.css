@@ -1,0 +1,737 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ledger&display=swap");
+.nav-link {
+  font-size: 1.5rem;
+  color: white; }
+  .nav-link:hover {
+    color: goldenrod; }
+  .nav-link:active {
+    color: black;
+    background-color: goldenrod; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "League Gothic"; }
+
+.navbar-color {
+  background-color: black; }
+
+.navbar img {
+  width: 3.4375rem;
+  height: 3.4375rem;
+  border-radius: 50%;
+  border: .125rem, solid, white;
+  transition-duration: 1s; }
+  .navbar img:hover {
+    border: .125rem, solid, goldenrod;
+    transform: scale(1.1); }
+
+.sectorUno {
+  width: 100%;
+  height: calc(100vh - 4.625rem);
+  background-image: url(../img/fondocharly.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  padding: 2.5rem;
+  padding-left: 12.5rem; }
+  .sectorUno h1 {
+    font-family: "League Spartan";
+    color: white; }
+
+.tituloPequeño {
+  font-size: 6rem; }
+  .tituloPequeño::selection {
+    color: goldenrod; }
+
+.tituloGrande {
+  font-size: 8rem; }
+  .tituloGrande::selection {
+    color: goldenrod; }
+
+.sectorDos {
+  width: 100%;
+  height: 49.875rem;
+  background-color: #191919;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.top {
+  height: 49.875rem;
+  width: 18.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column; }
+  .top p {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 0rem; }
+    .top p::selection {
+      color: goldenrod; }
+
+.clics {
+  width: 43.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .clics h2 {
+    font-size: 8rem;
+    text-decoration: underline;
+    color: black; }
+    .clics h2::selection {
+      color: goldenrod; }
+    .clics h2 span {
+      color: black;
+      font-size: 8rem;
+      text-decoration: underline;
+      text-decoration-color: black; }
+      .clics h2 span::selection {
+        color: goldenrod; }
+  .clics p {
+    font-size: 1.5rem;
+    width: 37.5rem;
+    text-align: center;
+    color: white; }
+    .clics p::selection {
+      color: goldenrod; }
+
+.boton {
+  width: 12.5rem;
+  height: 3.125rem;
+  margin: 1.5625rem;
+  transition-duration: 1s; }
+  .boton:hover {
+    transform: scale(1.1); }
+
+#carouselExample {
+  width: 28.125rem;
+  height: 31.25rem;
+  margin-left: 1.25rem;
+  border: .125rem solid goldenrod; }
+
+.sectorTres {
+  width: 100%;
+  height: 43.75rem;
+  display: flex; }
+  .sectorTres a {
+    width: 25%;
+    position: relative; }
+    .sectorTres a p {
+      position: absolute;
+      bottom: 0;
+      font-size: 3.125rem;
+      padding: .625rem;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      transition-duration: 1s; }
+      .sectorTres a p:hover {
+        color: goldenrod; }
+
+.sui {
+  background-image: url(../img/suigeneris.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.maq {
+  background-image: url(../img/maquinapajaros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.seru {
+  background-image: url(../img/serugiran.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.solo {
+  background-image: url(../img/solista.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+#sobreEl {
+  width: 100%;
+  height: calc(100vh - 4.625rem);
+  background-image: url(../img/piano.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex; }
+  #sobreEl div {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin: .9375rem; }
+  #sobreEl p {
+    margin-bottom: 6.25rem; }
+  #sobreEl img {
+    border: .1875rem solid goldenrod;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    transition-duration: 1s; }
+    #sobreEl img:hover {
+      transform: rotateY(180deg); }
+
+#suiGeneris {
+  width: 100%;
+  background-image: url(../img/bat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  #suiGeneris div {
+    margin: .9375rem; }
+  #suiGeneris p {
+    margin-bottom: 6.1875rem; }
+
+#maquinaPajaros {
+  width: 100%;
+  background-image: url(../img/guitar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  #maquinaPajaros div {
+    margin: .9375rem; }
+  #maquinaPajaros p {
+    margin-bottom: 1.4375rem; }
+
+#seruGiran {
+  width: 100%;
+  background-image: url(../img/bass.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  #seruGiran div {
+    margin: .9375rem; }
+  #seruGiran p {
+    margin-bottom: 3.75rem; }
+
+#solista {
+  width: 100%;
+  background-image: url(../img/micro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  #solista div {
+    margin: .9375rem; }
+
+.texto {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column; }
+  .texto h1 {
+    font-size: 6rem;
+    padding: .625rem;
+    color: white; }
+    .texto h1::selection {
+      color: goldenrod; }
+  .texto h3 {
+    font-size: 6rem;
+    padding: .625rem;
+    color: white; }
+    .texto h3::selection {
+      color: goldenrod; }
+  .texto h2 {
+    font-size: 4rem;
+    padding: .625rem;
+    color: white; }
+    .texto h2::selection {
+      color: goldenrod; }
+  .texto p {
+    font-size: 1.5625rem;
+    padding: .625rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); }
+    .texto p::selection {
+      color: goldenrod; }
+
+.fondoDisco {
+  background-image: url(../img/fondodiscografia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  .fondoDisco h1 {
+    color: white;
+    font-size: 6rem;
+    padding: .625rem; }
+    .fondoDisco h1::selection {
+      color: goldenrod; }
+
+.discos {
+  display: grid;
+  grid-template-rows: repeat(6, 25rem);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.375rem;
+  padding: 3.125rem; }
+  .discos div {
+    width: 21.875rem;
+    height: 21.875rem;
+    transition-duration: 1s; }
+    .discos div:hover {
+      transform: scale(1.1); }
+    .discos div a img {
+      width: 21.875rem;
+      height: 21.875rem; }
+      .discos div a img:hover {
+        border: .125rem solid goldenrod; }
+    .discos div p {
+      font-size: 1.875rem;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.2);
+      text-align: center; }
+      .discos div p::selection {
+        color: goldenrod; }
+
+.imagen13 {
+  width: 21.875rem;
+  height: 21.875rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  transition-duration: 1s; }
+  .imagen13:hover {
+    transform: scale(1.1); }
+  .imagen13 p {
+    font-size: 1.875rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2); }
+    .imagen13 p::selection {
+      color: goldenrod; }
+  .imagen13 img {
+    width: 21.875rem;
+    height: 21.875rem; }
+    .imagen13 img:hover {
+      border: .125rem solid goldenrod; }
+
+.fondoReconocimientos {
+  background-color: #191919; }
+
+.contenedorImg {
+  width: 100%;
+  height: calc(100vh - 4.625rem);
+  background-image: url(../img/charlyreconocimiento.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.contenedorRec {
+  width: 100%;
+  height: 62.5rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  .contenedorRec p {
+    font-family: "League Gothic";
+    font-size: 2.25rem;
+    color: white;
+    text-align: center;
+    margin: 3.75rem;
+    border-bottom: .125rem solid white; }
+    .contenedorRec p::selection {
+      color: goldenrod; }
+
+.contenedorFotos {
+  width: 80%;
+  margin: auto;
+  padding-bottom: .625rem;
+  display: grid;
+  gap: .9375rem;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "item1 item2" "item3 item3"; }
+
+.item1 {
+  width: 100%;
+  height: 23.375rem;
+  border-radius: 1.25rem;
+  grid-area: item1;
+  border: .125rem solid goldenrod; }
+
+.item2 {
+  width: 100%;
+  height: 23.375rem;
+  border-radius: 1.25rem;
+  grid-area: item2;
+  border: .125rem solid goldenrod; }
+
+.item3 {
+  width: 100%;
+  height: 23.375rem;
+  border-radius: 1.25rem;
+  grid-area: item3;
+  border: .125rem solid goldenrod; }
+
+.fondoGaleria {
+  background-color: #191919;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column; }
+  .fondoGaleria h1 {
+    font-family: "Ledger";
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+    margin: .625rem; }
+    .fondoGaleria h1::selection {
+      color: goldenrod; }
+
+.galeria {
+  width: 70%;
+  display: grid;
+  gap: .9375rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  grid-template-rows: repeat(9, auto);
+  grid-template-columns: repeat(3, auto);
+  grid-template-areas: "img1 img2 img2" "img3 img4 img7" "img5 img6 img7" "img8 img8 img8" "img9 img10 img11" "img12 img13 img13" "img12 img14 img14" "img12 img15 img15" "img16 img16 img16"; }
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition-duration: 1s; }
+    .galeria img:hover {
+      transform: scale(0.9); }
+
+.img1 {
+  grid-area: img1; }
+
+.img2 {
+  grid-area: img2; }
+
+.img3 {
+  grid-area: img3; }
+
+.img4 {
+  grid-area: img4; }
+
+.img5 {
+  grid-area: img5; }
+
+.img6 {
+  grid-area: img6; }
+
+.img7 {
+  grid-area: img7; }
+
+.img8 {
+  grid-area: img8; }
+
+.img9 {
+  grid-area: img9; }
+
+.img10 {
+  grid-area: img10; }
+
+.img11 {
+  grid-area: img11; }
+
+.img12 {
+  grid-area: img12; }
+
+.img13 {
+  grid-area: img13; }
+
+.img14 {
+  grid-area: img14; }
+
+.img15 {
+  grid-area: img15; }
+
+.img16 {
+  grid-area: img16; }
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .625rem; }
+  footer div p {
+    font-family: "League Spartan";
+    color: white;
+    font-size: .9375rem;
+    margin-bottom: 0rem; }
+    footer div p::selection {
+      color: goldenrod; }
+  footer div a {
+    margin: .625rem; }
+    footer div a img {
+      width: 1.875rem;
+      height: 1.875rem; }
+
+@media (max-width: 1510px) {
+  .sectorDos {
+    justify-content: space-around; }
+  .clics {
+    width: 31.25rem; }
+    .clics p {
+      width: 25rem; }
+    .clics h2 {
+      font-size: 6rem; }
+      .clics h2 span {
+        font-size: 6rem; }
+  #carouselExample {
+    width: 25rem;
+    height: 28.125rem; } }
+
+@media (max-width: 1280px) {
+  .sectorUno {
+    padding-left: 1.25rem; }
+  .tituloPequeño {
+    font-size: 5rem; }
+  .tituloGrande {
+    font-size: 6.875rem; }
+  .sectorDos {
+    display: flex;
+    flex-direction: column; }
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row; }
+    .top p {
+      font-size: 2.1875rem;
+      padding: 1.25rem; }
+  .clics {
+    margin-top: 1.875rem; }
+  .sectorTres {
+    height: 37.5rem; }
+    .sectorTres a p {
+      font-size: 2.5rem; }
+  #carouselExample {
+    display: none; }
+  .texto h1 {
+    font-size: 4.375rem; }
+  .texto h3 {
+    font-size: 4.375rem; }
+  .contenedorRec p {
+    font-size: 1.875rem; }
+  .item1, .item2 {
+    height: 25rem; }
+  .item3 {
+    height: 23.375rem; } }
+
+@media (max-width: 1090px) {
+  .sectorUno {
+    background-position: right; }
+  .navbar-toggler {
+    background-color: white; }
+  .contenedorImg {
+    background-position: left; }
+  .discos div {
+    width: 18.75rem;
+    height: 18.75rem; }
+    .discos div a img {
+      width: 18.75rem;
+      height: 18.75rem; }
+      .discos div a img:hover {
+        border: .125rem solid goldenrod; } }
+
+@media (max-width: 910px) {
+  .sectorTres {
+    height: 31.25rem; }
+    .sectorTres a p {
+      font-size: 2.1875rem; }
+  #sobreEl {
+    height: auto; }
+  #suiGeneris div #video {
+    width: 31.25rem;
+    height: 18.75rem; }
+  #maquinaPajaros div #video {
+    width: 31.25rem;
+    height: 18.75rem; }
+  #seruGiran div #video {
+    width: 31.25rem;
+    height: 18.75rem; }
+  #solista {
+    background-position: -5em; }
+    #solista div #video {
+      width: 31.25rem;
+      height: 18.75rem; }
+  .discos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3.125rem; }
+    .discos div {
+      width: 18.75rem;
+      height: 18.75rem; }
+      .discos div a img {
+        width: 18.75rem;
+        height: 18.75rem; }
+        .discos div a img:hover {
+          border: .125rem solid goldenrod; }
+  .imagen13 img {
+    width: 18.75rem;
+    height: 18.75rem; }
+    .imagen13 img:hover {
+      border: .125rem solid goldenrod; }
+  .item1, .item2 {
+    height: 18.75rem; }
+  .item3 {
+    height: 17.125rem; } }
+
+@media (max-width: 845px) {
+  .top {
+    display: none; }
+  .sectorTres {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    flex-direction: column; }
+    .sectorTres a {
+      height: 12.5rem;
+      width: 100%; }
+      .sectorTres a img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
+  .sui {
+    background-position: center 9%; }
+  .maq {
+    background-position: center 20%; }
+  .seru {
+    background-position: center 30%; }
+  .solo {
+    background-position: center 20%; }
+  .contenedorFotos {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.25rem; }
+  #sobreEl p {
+    font-size: 1.25rem; }
+  #sobreEl img {
+    width: 18.75rem;
+    height: 18.75rem; }
+  #suiGeneris p {
+    font-size: 1.25rem; }
+  #maquinaPajaros p {
+    font-size: 1.25rem; }
+  #seruGiran p {
+    font-size: 1.25rem; }
+  #solista p {
+    font-size: 1.25rem; }
+  .contenedorRec p {
+    font-size: 1.5rem; } }
+
+@media (max-width: 670px) {
+  .sectorUno {
+    background-image: url(../img/charlycelular.jpg); }
+  .tituloPequeño {
+    font-size: 4rem;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .tituloGrande {
+    font-size: 5.3125rem;
+    background-color: rgba(0, 0, 0, 0.5); }
+  .clics {
+    width: 15.625rem; }
+    .clics h2 {
+      font-size: 4.375rem;
+      text-align: center; }
+      .clics h2 span {
+        font-size: 4.375rem;
+        text-align: center; }
+    .clics p {
+      width: 15.625rem; }
+  #sobreEl h1 {
+    font-size: 3.125rem; }
+  #sobreEl h2 {
+    font-size: 3.125rem; }
+  #sobreEl div {
+    display: none; }
+  #suiGeneris div #video {
+    width: 18.75rem;
+    height: 9.375rem; }
+  #maquinaPajaros div #video {
+    width: 18.75rem;
+    height: 9.375rem; }
+  #seruGiran div #video {
+    width: 18.75rem;
+    height: 9.375rem; }
+  #solista div #video {
+    width: 18.75rem;
+    height: 9.375rem; }
+  .texto h3 {
+    font-size: 3.125rem; }
+  .fondoDisco h1 {
+    font-size: 3.125rem; }
+  .discos div {
+    width: 15.625rem;
+    height: 15.625rem; }
+    .discos div a img {
+      width: 15.625rem;
+      height: 15.625rem; }
+      .discos div a img:hover {
+        border: .125rem solid goldenrod; }
+  .imagen13 {
+    width: 15.625rem;
+    height: 15.625rem;
+    margin-top: 9.375rem; }
+    .imagen13 img {
+      width: 15.625rem;
+      height: 15.625rem; }
+      .imagen13 img:hover {
+        border: .125rem solid goldenrod; }
+  .contenedorRec p {
+    font-size: 1.25rem;
+    margin: 3.125rem; }
+  .contenedorImg {
+    background-position: -20em; }
+  .item1, .item2 {
+    height: 12.5rem; }
+  .item3 {
+    height: 12.5rem; }
+  .fondoGaleria h1 {
+    font-size: 3.125rem; }
+  .galeria {
+    display: flex;
+    flex-direction: column; }
+  footer {
+    flex-direction: column; }
+    footer div p {
+      font-size: .625rem;
+      text-align: center; }
+    footer div a img {
+      width: 1.25rem;
+      height: 1.25rem; } }
